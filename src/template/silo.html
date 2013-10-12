@@ -251,7 +251,7 @@
 			var elem = d3.select('#silo');
 			var g = elem.select('svg g');
 			
-	      
+	     /* 
 	      d3.select("#percent")
 	      .data([20])
 	      .transition()
@@ -360,10 +360,10 @@
 	      		.style("stroke","#56ff56") ;
 			}, 7000);
 			
-			
+			*/
 			
 			//==ANIMATE SILO FUNCTION
-						var animateSilo = function(percentValue,dy,sideColor,topColor){
+			var animateSilo = function(percentValue,dy,sideColor,topColor){
 				d3.select("#percent")
 		      .data([percentValue])
 		      .transition()
@@ -403,13 +403,27 @@
 			}
 			
 			
+			var animateState=function(state){
+				if(state == 0 ){//"above30"){
+					animateSilo(30,0,"#00ff00", "#56ff56");
+				}else if(state == 1){//"between30and20"){
+					animateSilo(20, 53, "#ff7f00","#ffaa56");
+				}else if( state == 2){//"below20"){
+					animateSilo(20,90, "#ff0000", "#ff5656");
+				}
+			}
 			
-			setTimeout(function(){
+			
+			/*setTimeout(function(){
 				animateSilo(15,-30,"#00ff00", "#56ff56");
 			}, 10000);
 			setTimeout(function(){
 				animateSilo(40,100,"#00ffaa", "#56ffaa");
-			}, 12000);
+			}, 12000);*/
+			
+			setInterval(function(){
+				animateState(Math.abs(Math.round((Math.random()*2)))); 	
+			}, 2000);
 			
 			
 		});
