@@ -1,0 +1,908 @@
+received data:HTTP/1.1 200 OK
+Date: Thu, 10 Oct 2013 21:59:24 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+
+sending buffered data:Date: Thu, 10 Oct 2013 21:59:24 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+
+received data:2
+
+
+
+sending buffered data:Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:Connection: keep-alive
+Server: TornadoServer/2.4
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:Server: TornadoServer/2.4
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+received data:48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF0000000001000600521DFE0300226074", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 116, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:48a
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B5257237C42557A7546E7DFCF00000000010006005216FE0300226075", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13121953, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 117, "latitude": 43.358976684976376, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381442428, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381442450, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28877664823085, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:HTTP/1.1 200 OK
+Date: Thu, 10 Oct 2013 22:30:20 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+
+sending buffered data:Date: Thu, 10 Oct 2013 22:30:20 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+
+received data:2
+
+
+
+sending buffered data:Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:Transfer-Encoding: chunked
+Connection: keep-alive
+Server: TornadoServer/2.4
+
+2
+
+
+2
+
+
+
+received data:489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+sending buffered data:Connection: keep-alive
+Server: TornadoServer/2.4
+
+2
+
+
+2
+
+
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+received data:489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+sending buffered data:Server: TornadoServer/2.4
+
+2
+
+
+2
+
+
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+
+received data:2
+
+
+
+sending buffered data:
+2
+
+
+2
+
+
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D6050000000001000600521DFC030022607A", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123949, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 122, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21021, "rfidRssi": 252, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:489
+{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:{"zone4Avr": null, "zone6Avr": null, "zone7Low": null, "zone2High": null, "rfidCustNum": 6, "geozoneIndex": 0, "zone8High": null, "zone1Avr": null, "rawData": "$E051:F50B52572A864255757D46E7D60500000000010006005216FE030022607B", "rfidBatteryStatus": 3, "zone7Avr": null, "autoIndex": 13123951, "zone3Low": null, "geozoneID": "", "zone5Avr": null, "rfidTemperature": 880.0, "inputMask": 0, "zone3High": null, "altitude": 0.0, "transportID": "", "zone6Low": null, "zone5Low": null, "seqNum": 123, "latitude": 43.35902999388054, "zone2Avr": null, "zone5High": null, "odometerKM": 0.0, "accountID": "grandvalley", "rfidAlarmFlags": 0, "zone2Low": null, "zone1High": null, "timestamp": 1381444230, "zone6High": null, "zone8Avr": null, "dataSource": "", "distanceKM": 0.0, "creationTime": 1381444253, "charDeviceType": null, "zone3Avr": null, "zone1Low": null, "rfidTagNum": 21014, "rfidRssi": 254, "zone7High": null, "longitude": -80.28898669872434, "rfidReaderId": 1, "speedKPH": 0.0, "charDeviceResponse": "null", "deviceID": "grand01", "zone8Low": null, "rfidReaderType": 0, "zone4High": null, "zone4Low": null, "heading": 0.0, "address": "", "statusCode": 62731}
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
+received data:2
+
+
+
+sending buffered data:
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+2
+
+
+
