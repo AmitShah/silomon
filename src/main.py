@@ -59,10 +59,26 @@ class Observer(object):
 
 from threading import RLock
 
-'''Look for new line characters and notify all observer per line '''
-class LineObserver(Observer):
+class EventObserver(Observer):
+    state = dict()    
     def __init__(self):
         Observer.__init__(self)
+        pass
+    
+    def notify(self, message):
+        try:
+            event = json.loads(message)        
+            if not isinstance(event,(int,long)) and 'rfidTagNum' in event:
+                EventObserver.state[event['rfidTagNum']] = event
+                Observer.notify(self, json.dumps(EventObserver.state))
+        except:            
+            pass
+    
+        
+'''Look for new line characters and notify all observer per line '''
+class LineObserver(EventObserver):
+    def __init__(self):
+        EventObserver.__init__(self)
         self.buffer = ''
         self.rlock = RLock()
     '''we need to protect buffer from async calls :('''        
@@ -76,35 +92,14 @@ class LineObserver(Observer):
                     data = line.strip() #remove blank lines (when keep alive is sent from server)
                     if data:
                         logger.info(('sending buffered data:%s' % self.buffer))
-                        Observer.notify(self, data)                            
+                        EventObserver.notify(self, data)                            
         except:
             pass
         finally:
             pass
         
-class RecentEventState(object):
-    lock= threading.Lock()
-    event_state = dict()
+
     
-    def __init__(self):
-        pass
-    
-    def __call__(self, event_string):
-        event = json.load(event_string)
-        RecentEventState.lock.acquire()
-        try:
-            RecentEventState.event_state[event['rfidTagNum']] = event
-        finally:
-            RecentEventState.lock.release()
-    
-    def get_state_string(self):
-        state_string = ''
-        RecentEventState.lock.acquire()
-        try:
-            state_string = json.dump(RecentEventState.event_state)
-        finally:
-            RecentEventState.lock.release()
-        return state_string
     
 class BaseHandler(tornado.web.RequestHandler):        
     def initialize(self,api,event_state):
@@ -128,6 +123,7 @@ class UpdateHandler(WebSocketHandler):
     
     def open(self):
         UpdateHandler.observer.attach(self)
+        self(json.dumps(UpdateHandler.observer.state))
         
     def on_message(self, message):
         cmd = json.loads(message)
@@ -161,10 +157,6 @@ if __name__ == '__main__':
     '''let setup tcp connection to the upstream service to get sensor data 
     and handle this data with a async socket read for distribution :) '''
     
-    event_state = RecentEventState()
-    #add a new event state monitor
-    UpdateHandler.observer.attach(event_state)
-    
     api = Api(token='9DquKlyhPKpZ35mxcjG/JUqWAd//U12O13ja6Wqp',
               key='yXIJ1omZUNtbo6wNjMOkKYBLNJakn0nr/OzgVtDKh2i5lDktVT2xv5xfbYlCkW+Z',
               base_url='https://developers.polairus.com')
@@ -190,12 +182,12 @@ if __name__ == '__main__':
     callback = functools.partial(data_handler, s)
     ioloop = tornado.ioloop.IOLoop.instance()
     ioloop.add_handler(s.fileno(), callback, ioloop.READ)    
-    #ioloop.add_callback(connect_to_service)
+    ioloop.add_callback(connect_to_service)
     
     #define all the services
     services = dict(
         api = api,
-        event_state = event_state
+        event_state = None
         )
     
     settings = dict(

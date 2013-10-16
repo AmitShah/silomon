@@ -216,7 +216,9 @@
 			<path fill="#fcfcfc" d=" M 413.76 444.90 C 414.87 445.42 415.97 445.93 417.09 446.44 C 417.23 451.13 417.06 455.83 416.55 460.50 C 416.34 459.26 415.90 456.79 415.68 455.56 C 414.35 456.90 414.71 458.85 414.56 460.55 C 413.90 460.03 413.26 459.49 412.61 458.98 C 414.11 458.23 413.69 456.45 413.82 455.09 C 413.84 451.69 413.78 448.30 413.76 444.90 Z"/>
 			</g>
 			<g>
-				<text id="percent" x="200" y="175" font-family="Open Sans" font-size="50">30</text>
+				<text id="parametric" x="130" y="125" font-family="Open Sans" font-size="25">above</text>
+				<text id="percent" x="130" y="175" font-family="Open Sans" font-size="50">30</text>
+				<text id="sign" x="200" y="175" font-family="Open Sans" font-size="50">%</text>
 			</g>
 			
 			</svg>
@@ -250,121 +252,76 @@
 			//======DRAW SILO ====
 			var elem = d3.select('#silo');
 			var g = elem.select('svg g');
+			//default state
+			var state = {
+						  21014:62730,
+						  21021:62730
+						};
+	     	var handle = function(data){	
+				try{
+					state = data;
+					
+					//21014-->30%
+					//21021-->20%
+					if(state[21014]['statusCode'] === 62730 ){ //logically bot should still be closed 
+						animateState(0);
+					}else if(state[21014]['statusCode'] === 62731 && state[21021]['statusCode'] === 62730){
+						animateState(1);
+					}else if (state[21014]['statusCode'] === 62731 && state[21021]['statusCode'] === 62731){
+						animateState(2);
+					}
+					
+					
+        		}
+        		catch (err){
+        			
+        		}
+			};
 			
-	     /* 
-	      d3.select("#percent")
-	      .data([20])
-	      .transition()
-	      .duration(DURATION)
-	      .ease("cubic")
-		  .attr('y','235')
-	      .tween("text", function(d,i,a){
-	      	var i = d3.interpolate(this.textContent,d);
-	      	return function(t){
-	      		this.textContent = Math.round(i(t));
-	      	}
-	      });		
-	      	g.select('#bot-fluid')
-				.transition()
-				.duration(DURATION)
-				.ease("cubic")
-				.style("fill", "#ff7f00")
-	      		.style("stroke","#ff7f00") ;
-	      
-	      g.select('rect')
-				.transition()
-				.duration(DURATION)
-				.ease("cubic")
-				.attr('y','235')
-				.attr('height','55')
-				.style("fill", "#ff7f00")
-	      		.style("stroke","#ff7f00") ;
-			g.select('#top-fluid')
-				.transition()	
-				.duration(DURATION)
-				.ease("cubic")
-				.attrTween("transform", function(d,i,a) { 
-					return d3.interpolateString(a, "translate(0,53)"); })
-	      		.style("fill", "#ffaa56")
-	      		.style("stroke","#ffaa56") ;
-	      
-	      setTimeout(function(){
-	      d3.select("#percent")
-	      .transition()
-	      .duration(DURATION)
-	      .ease("cubic")
-		  .attr('y','250')
-	      
-	      g.select('rect')
-				.transition()
-				.duration(DURATION)
-				.ease("cubic")
-				.attr('y','265')
-				.attr('height','25')
-				.style("fill", "#ff0000")
-	      		.style("stroke","#ff0000") ;
-	      		
-	      	g.select('#bot-fluid')
-				.transition()
-				.duration(DURATION)
-				.ease("cubic")
-				.style("fill", "#ff0000")
-	      		.style("stroke","#ff0000") ;
-	      
-			g.select('#top-fluid')
-				.transition()	
-				.duration(DURATION)
-				.ease("cubic")
-				.attrTween("transform", function(d,i,a) { 
-					return d3.interpolateString(a, "translate(0,90)"); })
-	      		.style("fill", "#ff5656")
-	      		.style("stroke","#ff5656") ;
-			}, 5000);
-	
-			setTimeout(function(){
-			   d3.select("#percent")
-		      .data([30])
+			var ws = new WebSocket('ws://localhost:9999/update');
+			var start = function(){
+				ws.onopen = function()
+			    {
+			
+				};
+			    ws.onmessage = function (event) 
+			    { 
+			     try{
+			     		var buffer = $.parseJSON(event.data);		     		
+			     		if(buffer && buffer !== '' && isNaN(parseInt(buffer,16))){
+			     			handle($.parseJSON(buffer));
+			     		}	
+			     		
+			       }catch(err)
+			       {
+					  uptime.html("socket error:"+err.message);
+			       }
+			    };
+			    ws.onclose = function()
+			    { 			    	
+			    	uptime.html('offline');
+			    };
+		   }//end start
+		    
+		   
+			//==ANIMATE SILO FUNCTION
+			var animateSilo = function(parametric,percentValue,dy,sideColor,topColor){
+			   d3.select("#sign")
 		      .transition()
 		      .duration(DURATION)
 		      .ease("cubic")
-			  .attr('y','160')
-		      .tween("text", function(d,i,a){
-		      	var i = d3.interpolate(this.textContent,d);
-		      	return function(t){
-		      		this.textContent = Math.round(i(t));
-		      	}
-		      });
-		      g.select('rect')
-				.transition()
-				.duration(DURATION)
-				.ease("cubic")
-				.attr('y','175')
-				.attr('height','115')
-				.style("fill", "#00ff00")
-	      		.style("stroke","#00ff00") ;
-	      		
-	      	g.select('#bot-fluid')
-				.transition()
-				.duration(DURATION)
-				.ease("cubic")
-				.style("fill", "#00ff00")
-	      		.style("stroke","#00ff00") ;
-	      
-			g.select('#top-fluid')
-				.transition()	
-				.duration(DURATION)
-				.ease("cubic")
-				.attrTween("transform", function(d,i,a) { 
-					return d3.interpolateString(a, "translate(0,0)"); })
-	      		.style("fill", "#56ff56")
-	      		.style("stroke","#56ff56") ;
-			}, 7000);
-			
-			*/
-			
-			//==ANIMATE SILO FUNCTION
-			var animateSilo = function(percentValue,dy,sideColor,topColor){
-				d3.select("#percent")
+		      .attr('y',(175+dy)+"")			  
+		      var p = d3.select("#parametric")
+		      .data(parametric)
+		      .text(function(d){return d;})
+		      .style("fill-opacity", 1e-6)		  
+		      .transition()
+		      .duration(DURATION)
+		      .ease("cubic")
+		      .attr('y',(125+dy)+"")			  
+		      .style("fill-opacity", 1);
+		      
+			  d3.select("#percent")
 		      .data([percentValue])
 		      .transition()
 		      .duration(DURATION)
@@ -404,28 +361,24 @@
 			
 			
 			var animateState=function(state){
-				if(state == 0 ){//"above30"){
-					animateSilo(30,0,"#00ff00", "#56ff56");
-				}else if(state == 1){//"between30and20"){
-					animateSilo(20, 53, "#ff7f00","#ffaa56");
-				}else if( state == 2){//"below20"){
-					animateSilo(20,90, "#ff0000", "#ff5656");
+				if(state === 0 ){//"above30"){
+					animateSilo(['above'],30,0,"#00ff00", "#56ff56");
+				}else if(state === 1){//"between30and20"){
+					animateSilo(['30% to'],20, 53, "#ff7f00","#ffaa56");
+				}else if( state === 2){//"below20"){
+					animateSilo(['below'],20,90, "#ff0000", "#ff5656");
 				}
 			}
 			
 			
-			/*setTimeout(function(){
-				animateSilo(15,-30,"#00ff00", "#56ff56");
-			}, 10000);
-			setTimeout(function(){
-				animateSilo(40,100,"#00ffaa", "#56ffaa");
-			}, 12000);*/
+			/*Test ui function
 			
 			setInterval(function(){
-				animateState(Math.abs(Math.round((Math.random()*2)))); 	
+				animateState(Math.abs(Math.round(Math.random()*2)));
 			}, 2000);
-			
-			
+			*/
+			//lets begin processing live stream
+		   	start();
 		});
 	</script>
 
