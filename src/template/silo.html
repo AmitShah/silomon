@@ -94,6 +94,9 @@
 			<div class="row">
 				<h2>Silo Monitor</h2>
 			</div>
+			<div class="row">
+				<p id="time">updating...</p>
+			</div>
 			<div class="row" id="silo">
 			
 			<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" version="1.1">
@@ -253,13 +256,16 @@
 			var elem = d3.select('#silo');
 			var g = elem.select('svg g');
 			//default state
-			var state = {
-						  21014:62730,
-						  21021:62730
-						};
-	     	var handle = function(data){	
+			var handle = function(data){	
 				try{
 					state = data;
+					if(!state.hasOwnProperty(21014) || !state.hasOwnProperty(21021)){
+						return
+					}
+					//update time
+					var timestamp = state[21014]['timestamp'] >= state[21021]['timestamp']  ?
+						state[21014]['timestamp'] : state[21021]['timestamp'] ;
+					$('#time').html(moment.unix(timestamp).format('MMMM Do YYYY, h:mm:ss a')); 
 					
 					//21014-->30%
 					//21021-->20%
@@ -277,8 +283,7 @@
         			
         		}
 			};
-			
-			var ws = new WebSocket('ws://localhost:9999/update');
+			var ws = new WebSocket('ws://'+window.location.href.split('/')[2]+'/update');
 			var start = function(){
 				ws.onopen = function()
 			    {
